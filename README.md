@@ -4,8 +4,4 @@ I'm a Computer Science student at NUS with a growing passion for UI/UX, design a
 
 I find anything design and computer related fascinating so I’m dedicating my life to learning everything I can and nerding out about it :)
 
-> Open to learning anything (especially without a time constrain).
-> Always keen to meet more nerds in tech, designers and devs 
-
-
 Thanks for stopping by xoxo 🖤 
