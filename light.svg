@@ -2,35 +2,55 @@
   <title id="title">Hazel Hidayah animated profile banner for light mode</title>
   <desc id="desc">An editorial animated banner introducing Hazel as a coder, designer, and storyteller.</desc>
   <defs>
-    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#b63c32"/>
-      <stop offset="1" stop-color="#dc7a46"/>
-    </linearGradient>
     <clipPath id="frame">
       <rect width="900" height="380" rx="18"/>
     </clipPath>
   </defs>
 
   <g clip-path="url(#frame)">
-    <rect width="900" height="380" fill="#f1eee8"/>
+    <rect width="900" height="380" fill="#ffffff"/>
 
-    <g fill="none" stroke="#d8d2c7" stroke-width="1" opacity="0.8">
+    <g fill="none" stroke="#d0d7de" stroke-width="1" opacity="0.65">
       <path d="M0 48H900M0 96H900M0 144H900M0 192H900M0 240H900M0 288H900M0 336H900"/>
       <path d="M90 0V380M180 0V380M270 0V380M360 0V380M450 0V380M540 0V380M630 0V380M720 0V380M810 0V380"/>
     </g>
 
-    <circle cx="786" cy="118" r="72" fill="none" stroke="#b63c32" stroke-width="1" opacity="0.2">
-      <animate attributeName="r" values="58;78;58" dur="5s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0.3;0.06;0.3" dur="5s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="786" cy="118" r="40" fill="#b63c32" opacity="0.05">
-      <animate attributeName="r" values="34;49;34" dur="5s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0.09;0.02;0.09" dur="5s" repeatCount="indefinite"/>
-    </circle>
-
-    <path d="M653 118C695 70 739 70 786 118C833 166 869 157 914 109" fill="none" stroke="url(#accent)" stroke-width="3" stroke-linecap="round" stroke-dasharray="310" stroke-dashoffset="310">
-      <animate attributeName="stroke-dashoffset" values="310;0;0;-310" keyTimes="0;0.35;0.75;1" dur="6s" repeatCount="indefinite"/>
-    </path>
+    <g transform="translate(776 36)">
+      <ellipse cx="-21" cy="22" rx="13" ry="31" fill="#ffffff" stroke="#b63c32" stroke-width="3">
+        <animateTransform attributeName="transform" type="rotate" values="-12 -21 22;-18 -21 22;-12 -21 22" dur="2.8s" repeatCount="indefinite"/>
+      </ellipse>
+      <ellipse cx="21" cy="22" rx="13" ry="31" fill="#ffffff" stroke="#b63c32" stroke-width="3">
+        <animateTransform attributeName="transform" type="rotate" values="12 21 22;18 21 22;12 21 22" dur="2.8s" repeatCount="indefinite"/>
+      </ellipse>
+      <ellipse cx="-21" cy="22" rx="5" ry="20" fill="#b63c32" opacity="0.22"/>
+      <ellipse cx="21" cy="22" rx="5" ry="20" fill="#b63c32" opacity="0.22"/>
+      <circle cx="0" cy="73" r="45" fill="#ffffff" stroke="#b63c32" stroke-width="3"/>
+      <ellipse cx="-16" cy="67" rx="4" ry="5" fill="#181817">
+        <animate attributeName="ry" values="5;5;0.7;5;5" keyTimes="0;0.42;0.46;0.5;1" dur="4s" repeatCount="indefinite"/>
+      </ellipse>
+      <ellipse cx="16" cy="67" rx="4" ry="5" fill="#181817">
+        <animate attributeName="ry" values="5;5;0.7;5;5" keyTimes="0;0.42;0.46;0.5;1" dur="4s" repeatCount="indefinite"/>
+      </ellipse>
+      <path d="M-4 78Q0 82 4 78M0 81V86M0 86Q-7 91-12 86M0 86Q7 91 12 86" fill="none" stroke="#b63c32" stroke-width="2" stroke-linecap="round"/>
+      <circle cx="-30" cy="81" r="5" fill="#b63c32" opacity="0.14"/>
+      <circle cx="30" cy="81" r="5" fill="#b63c32" opacity="0.14"/>
+      <ellipse cx="0" cy="138" rx="48" ry="42" fill="#ffffff" stroke="#b63c32" stroke-width="3"/>
+      <circle cx="-36" cy="123" r="12" fill="#ffffff" stroke="#b63c32" stroke-width="3">
+        <animate attributeName="cy" values="123;119;123" dur="0.9s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="36" cy="123" r="12" fill="#ffffff" stroke="#b63c32" stroke-width="3">
+        <animate attributeName="cy" values="119;123;119" dur="0.9s" repeatCount="indefinite"/>
+      </circle>
+      <rect x="-55" y="107" width="110" height="64" rx="7" fill="#f6f8fa" stroke="#8c959f" stroke-width="2"/>
+      <rect x="-45" y="117" width="90" height="40" rx="3" fill="#ffffff"/>
+      <path d="M-32 128H-8M-32 137H6M-32 146H-16" stroke="#b63c32" stroke-width="3" stroke-linecap="round">
+        <animate attributeName="stroke-dasharray" values="4 28;22 10;4 28" dur="2.4s" repeatCount="indefinite"/>
+      </path>
+      <path d="M12 128H31M17 137H31M3 146H31" stroke="#dc7a46" stroke-width="3" stroke-linecap="round" opacity="0.8">
+        <animate attributeName="opacity" values="0.25;1;0.25" dur="1.8s" repeatCount="indefinite"/>
+      </path>
+      <path d="M-64 172H64" stroke="#8c959f" stroke-width="4" stroke-linecap="round"/>
+    </g>
 
     <g transform="translate(54 48)">
       <text x="0" y="0" fill="#b63c32" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" letter-spacing="3">HELLO, I&apos;M</text>
@@ -52,22 +72,15 @@
         </rect>
       </g>
 
-      <text x="0" y="148" fill="#68645e" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="15">Building thoughtful digital experiences with code, design, and curiosity.</text>
+      <text x="0" y="148" fill="#68645e" font-family="Trebuchet MS, Avenir Next, sans-serif" font-size="15">Building thoughtful digital experiences with code, design, and curiosity.</text>
       <rect x="0" y="166" width="350" height="2" rx="1" fill="#d8d2c7"/>
-      <rect x="0" y="166" width="0" height="2" rx="1" fill="url(#accent)">
+      <rect x="0" y="166" width="0" height="2" rx="1" fill="#c8281e">
         <animate attributeName="width" values="0;350;350;0" keyTimes="0;0.45;0.85;1" dur="6s" repeatCount="indefinite"/>
       </rect>
     </g>
 
-    <g transform="translate(786 118)">
-      <circle r="8" fill="#b63c32"/>
-      <circle cx="0" cy="-54" r="4" fill="#dc7a46">
-        <animateTransform attributeName="transform" type="rotate" from="0 0 0" to="360 0 0" dur="5s" repeatCount="indefinite"/>
-      </circle>
-    </g>
-
-    <line x1="54" y1="244" x2="846" y2="244" stroke="#d8d2c7" stroke-width="1"/>
-    <g transform="translate(54 273)" fill="#3f3b36" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="14">
+    <line x1="54" y1="244" x2="846" y2="244" stroke="#d0d7de" stroke-width="1"/>
+    <g transform="translate(54 273)" fill="#3f3b36" font-family="Trebuchet MS, Avenir Next, sans-serif" font-size="14">
       <text x="0" y="0">I&apos;m a Computer Science student at NUS. I used to study Mass Communication at Ngee Ann Polytechnic,</text>
       <text x="0" y="24">so most of my time now has been dedicated to beating imposter syndrome! I find anything design &amp;</text>
       <text x="0" y="48">computer related <tspan font-style="italic">fascinating</tspan> so I dedicate my life to learning everything I can and nerding out about it :)</text>
