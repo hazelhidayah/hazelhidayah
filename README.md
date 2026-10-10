@@ -1,5 +1,3 @@
-# Hey, I'm Hidayah, but I also go by Hazel \(^-^)/
-
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./light.svg">
