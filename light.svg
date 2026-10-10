@@ -15,41 +15,38 @@
       <path d="M90 0V380M180 0V380M270 0V380M360 0V380M450 0V380M540 0V380M630 0V380M720 0V380M810 0V380"/>
     </g>
 
-    <g transform="translate(776 36)">
-      <ellipse cx="-21" cy="22" rx="13" ry="31" fill="#ffffff" stroke="#b63c32" stroke-width="3">
-        <animateTransform attributeName="transform" type="rotate" values="-12 -21 22;-18 -21 22;-12 -21 22" dur="2.8s" repeatCount="indefinite"/>
-      </ellipse>
-      <ellipse cx="21" cy="22" rx="13" ry="31" fill="#ffffff" stroke="#b63c32" stroke-width="3">
-        <animateTransform attributeName="transform" type="rotate" values="12 21 22;18 21 22;12 21 22" dur="2.8s" repeatCount="indefinite"/>
-      </ellipse>
-      <ellipse cx="-21" cy="22" rx="5" ry="20" fill="#b63c32" opacity="0.22"/>
-      <ellipse cx="21" cy="22" rx="5" ry="20" fill="#b63c32" opacity="0.22"/>
-      <circle cx="0" cy="73" r="45" fill="#ffffff" stroke="#b63c32" stroke-width="3"/>
-      <ellipse cx="-16" cy="67" rx="4" ry="5" fill="#181817">
-        <animate attributeName="ry" values="5;5;0.7;5;5" keyTimes="0;0.42;0.46;0.5;1" dur="4s" repeatCount="indefinite"/>
-      </ellipse>
-      <ellipse cx="16" cy="67" rx="4" ry="5" fill="#181817">
-        <animate attributeName="ry" values="5;5;0.7;5;5" keyTimes="0;0.42;0.46;0.5;1" dur="4s" repeatCount="indefinite"/>
-      </ellipse>
-      <path d="M-4 78Q0 82 4 78M0 81V86M0 86Q-7 91-12 86M0 86Q7 91 12 86" fill="none" stroke="#b63c32" stroke-width="2" stroke-linecap="round"/>
-      <circle cx="-30" cy="81" r="5" fill="#b63c32" opacity="0.14"/>
-      <circle cx="30" cy="81" r="5" fill="#b63c32" opacity="0.14"/>
-      <ellipse cx="0" cy="138" rx="48" ry="42" fill="#ffffff" stroke="#b63c32" stroke-width="3"/>
-      <circle cx="-36" cy="123" r="12" fill="#ffffff" stroke="#b63c32" stroke-width="3">
-        <animate attributeName="cy" values="123;119;123" dur="0.9s" repeatCount="indefinite"/>
+    <g transform="translate(624 28)">
+      <g fill="none" stroke="#181817" stroke-width="5" stroke-linecap="round" stroke-dasharray="0.1 10">
+        <path d="M20 183C10 164 14 137 31 116C42 103 57 96 72 94C64 69 67 40 78 14C89 41 93 67 88 91C99 65 113 42 132 28C134 58 125 83 111 99C132 101 150 112 155 128C166 128 175 133 178 140C168 148 157 150 146 146C138 161 120 170 102 169C89 183 68 190 44 188C33 188 24 186 20 183Z">
+          <animate attributeName="stroke-dashoffset" values="0;-40" dur="6s" repeatCount="indefinite"/>
+        </path>
+        <path d="M34 118C25 143 32 171 54 187M74 95C84 104 90 117 89 133M87 91C98 96 105 101 111 110M51 171C67 163 86 164 102 169">
+          <animate attributeName="stroke-dashoffset" values="0;30" dur="5s" repeatCount="indefinite"/>
+        </path>
+      </g>
+
+      <circle cx="138" cy="121" r="4" fill="#b63c32">
+        <animate attributeName="r" values="4;4;0.7;4;4" keyTimes="0;0.5;0.53;0.56;1" dur="4.2s" repeatCount="indefinite"/>
       </circle>
-      <circle cx="36" cy="123" r="12" fill="#ffffff" stroke="#b63c32" stroke-width="3">
-        <animate attributeName="cy" values="119;123;119" dur="0.9s" repeatCount="indefinite"/>
-      </circle>
-      <rect x="-55" y="107" width="110" height="64" rx="7" fill="#f6f8fa" stroke="#8c959f" stroke-width="2"/>
-      <rect x="-45" y="117" width="90" height="40" rx="3" fill="#ffffff"/>
-      <path d="M-32 128H-8M-32 137H6M-32 146H-16" stroke="#b63c32" stroke-width="3" stroke-linecap="round">
-        <animate attributeName="stroke-dasharray" values="4 28;22 10;4 28" dur="2.4s" repeatCount="indefinite"/>
+      <circle cx="172" cy="139" r="3" fill="#b63c32"/>
+      <path d="M148 132Q158 136 165 134" fill="none" stroke="#b63c32" stroke-width="2" stroke-linecap="round"/>
+
+      <g transform="translate(183 43)">
+        <rect x="0" y="0" width="73" height="91" rx="4" fill="#f6f8fa" stroke="#8c959f" stroke-width="2"/>
+        <rect x="8" y="9" width="57" height="70" rx="2" fill="#ffffff"/>
+        <path d="M17 24H43M17 36H54M17 48H37M17 60H49" stroke="#b63c32" stroke-width="3" stroke-linecap="round">
+          <animate attributeName="stroke-dasharray" values="2 36;24 14;2 36" dur="2.8s" repeatCount="indefinite"/>
+        </path>
+        <path d="M0 91L-14 108H86L73 91Z" fill="#f6f8fa" stroke="#8c959f" stroke-width="2" stroke-linejoin="round"/>
+        <circle cx="36.5" cy="98" r="2" fill="#b63c32">
+          <animate attributeName="opacity" values="0.25;1;0.25" dur="1.6s" repeatCount="indefinite"/>
+        </circle>
+      </g>
+
+      <path d="M116 157C139 153 162 154 184 160M105 168C129 165 151 166 173 172" fill="none" stroke="#b63c32" stroke-width="4" stroke-linecap="round" stroke-dasharray="0.1 9">
+        <animate attributeName="stroke-dashoffset" values="0;-27" dur="2.1s" repeatCount="indefinite"/>
       </path>
-      <path d="M12 128H31M17 137H31M3 146H31" stroke="#dc7a46" stroke-width="3" stroke-linecap="round" opacity="0.8">
-        <animate attributeName="opacity" values="0.25;1;0.25" dur="1.8s" repeatCount="indefinite"/>
-      </path>
-      <path d="M-64 172H64" stroke="#8c959f" stroke-width="4" stroke-linecap="round"/>
+      <path d="M8 190H270" stroke="#8c959f" stroke-width="3" stroke-linecap="round"/>
     </g>
 
     <g transform="translate(54 48)">
